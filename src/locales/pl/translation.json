@@ -1,0 +1,207 @@
+{
+    "nav": {
+        "technology": "Technologia",
+        "sustainability": "Zrównoważony rozwój",
+        "pricing": "Cennik",
+        "getStarted": "Rozpocznij"
+    },
+    "hero": {
+        "version": "V0.8.4 RUST CORE • EU-WEST-1",
+        "titleLine1": "ANALYTICS",
+        "titleHighlight": "PROSTE.",
+        "subtitle": "Konfiguracja w 2 minuty. Brak banerów cookie. 100% hostowane w UE. Przyjazna alternatywa dla GA4.",
+        "startTracking": "ROZPOCZNIJ ŚLEDZENIE",
+        "viewGuarantee": "ZOBACZ GWARANCJĘ"
+    },
+    "features": {
+        "heading": "MOCNE, NIE SKOMPLIKOWANE.",
+        "subtext": "Wszystko, czego potrzebujesz, aby zrozumieć swoich użytkowników, bez problemów technicznych i ryzyka dla prywatności.",
+        "cards": {
+            "noBanners": {
+                "title": "Brak banerów",
+                "text": "Pomiń wyskakujące okienka zgody na pliki cookie. Nasze anonimowe śledzenie jest domyślnie w 100% zgodne z RODO."
+            },
+            "instantLoad": {
+                "title": "Błyskawiczne ładowanie",
+                "text": "Mały skrypt 10KB, który nie spowolni Twojej strony. Zbudowany w Rust dla maksymalnej szybkości."
+            },
+            "hundredEu": {
+                "title": "100% UE",
+                "text": "Twoje dane pozostają w Europie. Hostowane, posiadane i zarządzane na terytorium UE."
+            },
+            "setup": {
+                "title": "Konfiguracja w kilka minut",
+                "text": "Wklej jedną linię kodu i jesteś online. Brak skomplikowanej konfiguracji."
+            },
+            "badges": {
+                "privacyFirst": "Prywatność przede wszystkim",
+                "zeroFriction": "Zero tarcia"
+            }
+        }
+    },
+    "technology": {
+        "stackLabel": "NASZ STACK",
+        "titleLine1": "ZAPROJEKTOWANE DLA",
+        "titleHighlight": "SUWERENNOŚCI.",
+        "subtitle": "Nie zbudowaliśmy tylko kolejnego narzędzia analitycznego. Przeprojektowaliśmy cały stos, aby dopasować go do europejskich wartości prywatności, szybkości i niezależności.",
+        "whyHeading": "DLACZEGO TO WAŻNE",
+        "learnSustainability": "POZNAJ NASZĄ ZRÓWNOWAŻONOŚĆ",
+        "coreValue": "Główna wartość: {{value}}",
+        "cards": {
+            "rustCore": {
+                "title": "Rust Core",
+                "description": "Nasz backend jest zbudowany w Rust dla bezpieczeństwa pamięci i ekstremalnej wydajności. Pozwala to na przetwarzanie milionów zdarzeń z opóźnieniem poniżej milisekundy.",
+                "value": "Wydajność"
+            },
+            "sustainability": {
+                "stackLabel": "GREEN DOMYŚLNIE",
+                "titleLine1": "CZYSTY KOD.",
+                "titleHighlight": "CZYSTA PLANETA.",
+                "subtitle": "Wybierając Rust dla naszego rdzenia API, wyeliminowaliśmy 90% marnotrawstwa energetycznego obecnego w tradycyjnych stosach analitycznych. Wysoka wydajność nie musi kosztować planety.",
+                "stats": {
+                    "energy": {
+                        "label": "Efektywność energetyczna",
+                        "sub": "Mniejsze zużycie niż Node.js"
+                    },
+                    "resource": {
+                        "label": "Wykorzystanie zasobów",
+                        "sub": "Ślad pamięci"
+                    },
+                    "speed": {
+                        "label": "Szybkość przetwarzania",
+                        "sub": "Szybsze niż Python"
+                    }
+                },
+                "comparisons": {
+                    "heading": "ZALETY RUST",
+                    "subtitle": "Większość platform analitycznych działa na językach wyższego poziomu, które wymagają dużych klastrów. My działamy na bare metal.",
+                    "items": {
+                        "python": {
+                            "lang": "Python / Ruby",
+                            "note": "Wyski narzut, wolne wykonywanie"
+                        },
+                        "node": {
+                            "lang": "Node.js / Java",
+                            "note": "Umiarkowane zużycie zasobów"
+                        },
+                        "rust": {
+                            "lang": "Rust (nasz rdzeń)",
+                            "note": "Prawie brak marnotrawstwa, ekstremalna efektywność"
+                        }
+                    },
+                    "energyLabel": "{{value}}% Energia"
+                },
+                "whyHeading": "DLACZEGO TO WAŻNE",
+                "reasons": {
+                    "costs": {
+                        "title": "Niższe koszty operacyjne",
+                        "text": "Wydajność to nie tylko ekologia — to oszczędność. Przekazujemy te oszczędności Tobie poprzez konkurencyjne ceny serwerów."
+                    },
+                    "future": {
+                        "title": "Technologia gotowa na przyszłość",
+                        "text": "W miarę zaostrzania się przepisów UE dotyczących zrównoważonego rozwoju cyfrowego, nasz stos jest już gotowy."
+                    }
+                },
+                "carbon": {
+                    "heading": "API o zerowej emisji",
+                    "text": "Nasz rdzeń Rust jest tak wydajny, że działa na ułamku sprzętu wymaganego przez GA4."
+                },
+                "cta": {
+                    "heading": "Gotowy na bardziej zielony stos analityczny?",
+                    "getStarted": "ZACZNIJ",
+                    "viewStack": "ZOBACZ STOS"
+                }
+            },
+            "tenKb": {
+                "title": "10KB Script",
+                "description": "Mały skrypt śledzący bez zależności. Ładuje się natychmiast i nie wpływa na Core Web Vitals ani SEO.",
+                "value": "Prędkość"
+            },
+            "euInfra": {
+                "title": "Infrastruktura UE",
+                "description": "Korzystamy z europejskich dostawców chmury takich jak Hetzner i Scaleway. Twoje dane nigdy nie trafiają na serwery ani podprocesory zarejestrowane w USA.",
+                "value": "Suwerenność"
+            }
+        },
+        "cta": {
+            "heading": "Gotowy na bardziej zielony stos analityczny?",
+            "getStarted": "ZACZNIJ",
+            "viewStack": "ZOBACZ STOS"
+        }
+    },
+    "sustainability": {
+        "stackLabel": "GREEN DOMYŚLNIE",
+        "titleLine1": "CZYSTY KOD.",
+        "titleHighlight": "CZYSTA PLANETA.",
+        "subtitle": "Wybierając Rust dla naszego rdzenia API, wyeliminowaliśmy 90% marnotrawstwa energetycznego obecnego w tradycyjnych stosach analitycznych. Wysoka wydajność nie musi kosztować planety.",
+        "stats": {
+            "energy": { "label": "Efektywność energetyczna", "sub": "Mniejsze zużycie niż Node.js" },
+            "resource": { "label": "Wykorzystanie zasobów", "sub": "Ślad pamięci" },
+            "speed": { "label": "Szybkość przetwarzania", "sub": "Szybsze niż Python" }
+        },
+        "comparisons": {
+            "heading": "ZALETY RUST",
+            "subtitle": "Większość platform analitycznych działa na językach wyższego poziomu, które wymagają dużych klastrów. My działamy na bare metal.",
+            "items": {
+                "python": { "lang": "Python / Ruby", "note": "Wyski narzut, wolne wykonywanie" },
+                "node": { "lang": "Node.js / Java", "note": "Umiarkowane zużycie zasobów" },
+                "rust": { "lang": "Rust (nasz rdzeń)", "note": "Prawie brak marnotrawstwa, ekstremalna efektywność" }
+            },
+            "energyLabel": "{{value}}% Energia"
+        },
+        "whyHeading": "DLACZEGO TO WAŻNE",
+        "reasons": {
+            "costs": { "title": "Niższe koszty operacyjne", "text": "Wydajność to nie tylko ekologia — to oszczędność. Przekazujemy te oszczędności Tobie poprzez konkurencyjne ceny serwerów." },
+            "future": { "title": "Technologia gotowa na przyszłość", "text": "W miarę zaostrzania się przepisów UE dotyczących zrównoważonego rozwoju cyfrowego, nasz stos jest już gotowy." }
+        },
+        "carbon": { "heading": "API o zerowej emisji", "text": "Nasz rdzeń Rust jest tak wydajny, że działa na ułamku sprzętu wymaganego przez GA4." },
+        "cta": { "heading": "Gotowy na bardziej zielony stos analityczny?", "getStarted": "ZACZNIJ", "viewStack": "ZOBACZ STOS" }
+    },
+    "pricing": {
+        "banner": "TRANSPARENTNE CENY",
+        "headingLine1": "PLANY, KTÓRE",
+        "headingHighlight": "SKALUJĄ",
+        "subtitle": "Brak ukrytych opłat. Brak transferów danych do USA. Proste, wydajne analityki.",
+        "sovereigntyBadge": "100% w UE. Brak transferów do USA.",
+        "toggle": { "monthly": "Miesięcznie", "annual": "Rocznie" },
+        "saveBadge": "Oszczędź 20%",
+        "privacyMode": "Tryb prywatności",
+        "showComparison": "POKAŻ PORÓWNANIE",
+        "hideComparison": "UKRYJ PORÓWNANIE",
+        "comparison": { "ga4": "Standard Analytics (GA4)", "requiresBanner": "Wymaga banera cookie", "us": "User-Analytics.eu", "noBanner": "Brak potrzeby banera" },
+        "privacy": { "quote": "\"Nasz rdzeń Rust anonimizuje dane na edge, spełniając wymogi UE bez irytowania użytkowników.\"" },
+        "badges": { "mostPopular": "Najpopularniejszy" },
+        "perMonth": "/mo",
+        "eventsPerMonth": "ZDARZENIA / MIESIĄC",
+        "plans": {
+          "startup": { "name": "Startup", "description": "Dla projektów we wczesnej fazie.", "features": { "coreDashboard": "Panel core", "oneYearRetention": "Przechowywanie 1 rok", "emailSupport": "Wsparcie e-mail", "euResidency": "Hosting w UE" }, "cta": "Rozpocznij" },
+          "growth": { "name": "Growth", "description": "Dla rozwijających się firm.", "features": { "unlimitedSites": "Nieograniczone witryny", "fiveYearRetention": "Przechowywanie 5 lat", "prioritySupport": "Priorytetowe wsparcie", "weeklyDigests": "Tygodniowe podsumowania", "autoArchiving": "Automatyczne archiwizowanie" }, "cta": "Skaluj teraz" },
+          "business": { "name": "Business", "description": "Dla zespołów o dużym ruchu.", "features": { "teamAccounts": "Konta zespołowe", "rawExport": "Eksport surowych danych", "customDomains": "Własne domeny", "sla": "Gwarancja SLA", "customDpa": "Niestandardowa DPA" }, "cta": "Skontaktuj się z nami" }
+        }
+    },
+    "cta": {
+        "heading": "Gotowy, by przejść na suwerenne analizy?",
+        "viewPricing": "ZOBACZ CENNIK",
+        "backHome": "WRÓĆ DO DOMU"
+    },
+    "footer": {
+        "tagline": "Wydajna, priorytetowo traktująca prywatność platforma analityczna dla europejskiej gospodarki cyfrowej.",
+        "productHeading": "Produkt",
+        "governanceHeading": "Zarządzanie",
+        "product": {
+            "technology": "Technologia",
+            "pricing": "Cennik",
+            "documentation": "Dokumentacja",
+            "changelog": "Changelog"
+        },
+        "governance": {
+            "privacyPolicy": "Polityka prywatności",
+            "dpa": "DPA (Przetwarzanie danych)",
+            "sovereignty": "Gwarancja suwerenności",
+            "legal": "Informacja prawna"
+        },
+        "copyright": "© 2026 USER-ANALYTICS.EU • MADE WITH 🇪🇺 IN PORTUGAL",
+        "status": "Status: Operacyjny",
+        "uptime": "Dostępność: 99.99%"
+    }
+}

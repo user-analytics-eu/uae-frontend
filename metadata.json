@@ -1,0 +1,5 @@
+{
+  "name": "User-Analytics.eu",
+  "description": "High-performance, GDPR-compliant user analytics built in Rust and hosted in the EU.",
+  "requestFramePermissions": []
+}

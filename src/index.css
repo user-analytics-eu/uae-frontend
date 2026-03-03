@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-bg: #f8fafc; /* slate-50 */
+  --color-brand-card: #ffffff;
+  --color-brand-accent: #10b981; /* emerald-500 */
+  --color-brand-border: rgba(15, 23, 42, 0.08); /* slate-900/8 */
+  --color-brand-text: #1e293b; /* slate-800 */
+}
+
+@layer base {
+  body {
+    @apply font-sans antialiased bg-brand-bg text-brand-text selection:bg-emerald-500/20 selection:text-emerald-900;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-6 lg:px-12;
+  }
+  
+  .glass-card {
+    @apply bg-white border border-brand-border rounded-[2rem] shadow-xl shadow-slate-200/50;
+  }
+
+  .grid-bg {
+    background-image: radial-gradient(circle at 1px 1px, rgba(15, 23, 42, 0.03) 1px, transparent 0);
+    background-size: 40px 40px;
+  }
+}

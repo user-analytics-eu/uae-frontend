@@ -1,0 +1,175 @@
+{
+    "nav": {
+        "technology": "Technologie",
+        "sustainability": "Duurzaamheid",
+        "pricing": "Prijzen",
+        "getStarted": "Aan de slag"
+    },
+    "hero": {
+        "version": "V0.8.4 RUST CORE • EU-WEST-1",
+        "titleLine1": "ANALYTICS",
+        "titleHighlight": "MAKKELIJK GEMAAKT.",
+        "subtitle": "In 2 minuten ingesteld. Geen cookiebanners. 100% gehost in de EU. Het vriendelijke alternatief voor GA4.",
+        "startTracking": "BEGINNEN MET TRACKEN",
+        "viewGuarantee": "GARANTIE BEKIJKEN"
+    },
+    "features": {
+        "heading": "KRACHTIG, NIET GEKOMPLICEERD.",
+        "subtext": "Alles wat je nodig hebt om je gebruikers te begrijpen, zonder technische rompslomp of privacyrisico's.",
+        "cards": {
+            "noBanners": {
+                "title": "Geen banners nodig",
+                "text": "Sla cookie-consent popups over. Onze anonieme tracking is standaard 100% AVG-conform."
+            },
+            "instantLoad": {
+                "title": "Direct laden",
+                "text": "Een klein 10KB-script dat je site niet vertraagt. Gebouwd in Rust voor maximale snelheid."
+            },
+            "hundredEu": {
+                "title": "100% UE",
+                "text": "Je gegevens blijven in Europa. Gehost, eigendom en beheerd op EU-grondgebied."
+            },
+            "whyHeading": "WAAROM HET BELANGRIJK IS",
+            "reasons": {
+                "costs": {
+                    "title": "Lagere operationele kosten",
+                    "text": "Efficiëntie is niet alleen groen — het is goedkoop. Deze serverbesparingen geven we direct aan jou door via onze concurrerende prijzen."
+                },
+                "future": {
+                    "title": "Toekomstbestendige tech",
+                    "text": "Naarmate EU-regels voor digitale duurzaamheid strenger worden, loopt onze stack al voorop."
+                }
+            },
+            "carbon": {
+                "heading": "Koolstofneutrale API",
+                "text": "Onze Rust-core is zo efficiënt dat hij op een fractie van de hardware draait die GA4 nodig heeft."
+            },
+            "cta": {
+                "heading": "Klaar voor een groenere analytics-stack?",
+                "getStarted": "BEGIN",
+                "viewStack": "BEKIJK STACK"
+            }
+        },
+        "tenKb": {
+            "title": "10KB Script",
+            "description": "Een klein, dependency-vrij tracking-script. Het laadt direct en heeft geen impact op je Core Web Vitals of SEO-ranglijst.",
+            "value": "Snelheid"
+        },
+        "euInfra": {
+            "title": "EU Infrastructuur",
+            "description": "We gebruiken 100% Europese cloudproviders zoals Hetzner en Scaleway. Je gegevens raken nooit US-eigendom servers of subprocessors.",
+            "value": "Soevereiniteit"
+        }
+    },
+    "alignments": {
+        "privacy": {
+            "goal": "Privacy standaard",
+            "tech": "Edge-anonimisering",
+            "description": "IP-adressen worden gehashed en gezouten aan de edge. We slaan nooit identificeerbare gegevens op, waardoor cookiebanners overbodig zijn."
+        },
+        "sovereignty": {
+            "goal": "Digitale soevereiniteit",
+            "tech": "Alleen-EU-routering",
+            "description": "Onze netwerk topologie is strikt confined tot de Europese Unie, waardoor je gebruikers beschermd worden tegen buitenlandse surveillance."
+        },
+        "sustainability": {
+            "goal": "Duurzaamheid",
+            "tech": "Efficiënte code",
+            "description": "De lage resource footprint van Rust betekent dat we 90% minder serverenergie gebruiken dan traditionele Node.js of Python analytics stacks."
+        }
+    },
+    "technology": {
+        "stackLabel": "ONZE STACK",
+        "titleLine1": "ONTWORPEN VOOR",
+        "titleHighlight": "SOEVEREINITEIT.",
+        "subtitle": "We hebben niet zomaar een andere analytics-tool gebouwd. We hebben de hele stack herontworpen om te voldoen aan Europese waarden van privacy, snelheid en onafhankelijkheid.",
+        "whyHeading": "WAAROM HET BELANGRIJK IS",
+        "learnSustainability": "ONZE DUURZAAMHEID BEKIJKEN",
+        "coreValue": "Kernwaarde: {{value}}",
+        "cards": {
+            "rustCore": {
+                "title": "Rust Core",
+                "description": "Onze backend is gebouwd in Rust voor geheugenveiligheid en extreme prestaties. Dit stelt ons in staat miljoenen events te verwerken met latenties onder de milliseconde.",
+                "value": "Prestaties"
+            },
+            "sustainability": {
+                "stackLabel": "GREEN STANDAARD",
+                "titleLine1": "SCHONE CODE.",
+                "titleHighlight": "SCHOON PLANET.",
+                "subtitle": "Door Rust te kiezen voor onze API-kern hebben we 90% van de energieverspilling in traditionele analytische stacks geëlimineerd. Hoge prestaties hoeven de planeet niet te schaden.",
+                "stats": {
+                    "energy": { "label": "Energie-efficiëntie", "sub": "Minder verbruik dan Node.js" },
+                    "resource": { "label": "Resource Gebruik", "sub": "Geheugenvoetafdruk" },
+                    "speed": { "label": "Verwerkingssnelheid", "sub": "Sneller dan Python" }
+                },
+                "comparisons": {
+                    "heading": "DE RUST VOORSPRONG",
+                    "subtitle": "De meeste analytische platforms draaien op high-level talen die grote clusters vereisen. Wij draaien op bare metal.",
+                    "items": {
+                        "python": { "lang": "Python / Ruby", "note": "Hoge overhead, trage uitvoering" },
+                        "node": { "lang": "Node.js / Java", "note": "Matig resource gebruik" },
+                        "rust": { "lang": "Rust (Onze kern)", "note": "Bijna geen verspilling, extreme efficiëntie" }
+                    },
+                    "energyLabel": "{{value}}% Energie"
+                },
+                "whyHeading": "WAAROM HET BELANGRIJK IS",
+                "reasons": {
+                    "costs": { "title": "Lagere operationele kosten", "text": "Efficiëntie is niet alleen groen—het is economisch. We geven deze infrastructuurbesparingen direct door aan jou via onze concurrerende serverprijzen." },
+                    "future": { "title": "Toekomstbestendige technologie", "text": "Naarmate EU-regelgeving rond digitale duurzaamheid verscherpt, ligt onze stack al voorop." }
+                },
+                "carbon": { "heading": "Zero-emissie API", "text": "Onze Rust-core is zo efficiënt dat het op een fractie van de hardware draait die GA4 vereist." },
+                "cta": { "heading": "Klaar voor een groenere analytics stack?", "getStarted": "BEGINNEN", "viewStack": "BEKIJK STACK" }
+            },
+            "tenKb": { "title": "10KB Script", "description": "Kleine tracking script zonder dependencies. Laadt onmiddellijk en beïnvloedt je Core Web Vitals of SEO niet.", "value": "Snelheid" },
+            "euInfra": { "title": "EU Infrastructuur", "description": "We gebruiken 100% Europese cloudproviders zoals Hetzner en Scaleway. Jouw data raakt nooit servers of subprocessors die in de VS geregistreerd zijn.", "value": "Soevereiniteit" }
+        },
+        "cta": { "heading": "Klaar om over te stappen op soevereine analytics?", "viewPricing": "BEKIJK PRIJZEN", "backHome": "TERUG NAAR START" }
+    },
+    "cta": {
+        "heading": "Klaar om over te stappen op soevereine analytics?",
+        "viewPricing": "BEKIJK PRIJZEN",
+        "backHome": "TERUG NAAR START"
+    },
+    "pricing": {
+        "banner": "TRANSPARANTE PRIJZEN",
+        "headingLine1": "PLANNEN DIE",
+        "headingHighlight": "SCHALEN",
+        "subtitle": "Geen verborgen kosten. Geen dataoverdrachten naar de VS. Gewoon eenvoudige, krachtige analytics.",
+        "sovereigntyBadge": "100% EU-gehost. Geen overdracht naar de VS.",
+        "toggle": { "monthly": "Maandelijks", "annual": "Jaarlijks" },
+        "saveBadge": "Bespaar 20%",
+        "privacyMode": "Privacy Modus",
+        "showComparison": "TOON VERGELIJKING",
+        "hideComparison": "VERGELIJKING VERBERGEN",
+        "comparison": { "ga4": "Standaard Analytics (GA4)", "requiresBanner": "Vereist cookie-banner", "us": "User-Analytics.eu", "noBanner": "Geen banner nodig" },
+        "privacy": { "quote": "\"Onze Rust-core anonimiseert gegevens aan de edge, waarmee we EU-regelgevers tevreden houden zonder je gebruikers te irriteren.\"" },
+        "badges": { "mostPopular": "Meest populair" },
+        "perMonth": "/mo",
+        "eventsPerMonth": "EVENTS / MAAND",
+        "plans": {
+            "startup": { "name": "Startup", "description": "Voor vroege projecten.", "features": { "coreDashboard": "Core-dashboard", "oneYearRetention": "1 jaar retentie", "emailSupport": "E-mailondersteuning", "euResidency": "EU-hosting" }, "cta": "Begin nu" },
+            "growth": { "name": "Growth", "description": "Voor groeiende bedrijven.", "features": { "unlimitedSites": "Onbeperkte sites", "fiveYearRetention": "5 jaar retentie", "prioritySupport": "Prioriteitsupport", "weeklyDigests": "Wekelijkse samenvattingen", "autoArchiving": "Automatisch archiveren" }, "cta": "Schaal nu" },
+            "business": { "name": "Business", "description": "Voor teams met veel verkeer.", "features": { "teamAccounts": "Team-accounts", "rawExport": "Raw data export", "customDomains": "Aangepaste domeinen", "sla": "SLA-garantie", "customDpa": "Aangepaste DPA" }, "cta": "Neem contact op" }
+        }
+    },
+    "footer": {
+        "tagline": "Het high-performance, privacy-first analytics platform gebouwd voor de Europese digitale economie.",
+        "productHeading": "Product",
+        "governanceHeading": "Governance",
+        "product": {
+            "technology": "Technologie",
+            "pricing": "Prijzen",
+            "documentation": "Documentatie",
+            "changelog": "Changelog"
+        },
+        "governance": {
+            "privacyPolicy": "Privacybeleid",
+            "dpa": "DPA (Gegevensverwerking)",
+            "sovereignty": "Soevereiniteitsgarantie",
+            "legal": "Juridische kennisgeving"
+        },
+        "copyright": "© 2026 USER-ANALYTICS.EU • MADE WITH 🇪🇺 IN PORTUGAL",
+        "status": "Status: Operationeel",
+        "uptime": "Uptime: 99.99%"
+    }
+}

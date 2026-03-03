@@ -1,0 +1,195 @@
+{
+  "nav": {
+    "technology": "Technology",
+    "sustainability": "Sustainability",
+    "pricing": "Pricing",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "version": "V0.8.4 RUST CORE • EU-WEST-1",
+    "titleLine1": "ANALYTICS",
+    "titleHighlight": "MADE SIMPLE.",
+    "subtitle": "Setup in 2 minutes. No cookie banners. 100% EU-hosted. The friendly alternative to GA4.",
+    "startTracking": "START TRACKING",
+    "viewGuarantee": "VIEW GUARANTEE"
+  },
+    "technology": {
+      "stackLabel": "OUR STACK",
+      "titleLine1": "BUILT FOR",
+      "titleHighlight": "SOVEREIGNTY.",
+      "subtitle": "We didn't just build another analytics tool. We re-engineered the entire stack to align with European values of privacy, speed, and independence.",
+      "whyHeading": "WHY IT MATTERS",
+      "learnSustainability": "LEARN ABOUT OUR SUSTAINABILITY",
+      "coreValue": "Core Value: {{value}}",
+      "cards": {
+        "rustCore": {
+          "title": "Rust Core",
+          "description": "Our backend is built in Rust for memory safety and extreme performance. This allows us to process millions of events with sub-millisecond latency.",
+          "value": "Performance"
+        },
+        "tenKb": {
+          "title": "10KB Script",
+          "description": "A tiny, dependency-free tracking script. It loads instantly and has zero impact on your Core Web Vitals or SEO rankings.",
+          "value": "Speed"
+        },
+        "euInfra": {
+          "title": "EU Infrastructure",
+          "description": "We use 100% European cloud providers like Hetzner and Scaleway. Your data never touches US-owned servers or sub-processors.",
+          "value": "Sovereignty"
+        }
+      },
+      "alignments": {
+        "privacy": {
+          "goal": "Privacy by Default",
+          "tech": "Edge Anonymization",
+          "description": "IP addresses are hashed and salted at the edge. We never store identifiable data, removing the need for cookie banners."
+        },
+        "sovereignty": {
+          "goal": "Digital Sovereignty",
+          "tech": "EU-Only Routing",
+          "description": "Our network topology is strictly confined to the European Union, protecting your users from foreign surveillance."
+        },
+        "sustainability": {
+          "goal": "Sustainability",
+          "tech": "Efficient Code",
+          "description": "Rust's low resource footprint means we use 90% less server energy than traditional Node.js or Python analytics stacks."
+        }
+      },
+      "cta": {
+        "heading": "Ready to switch to sovereign analytics?",
+        "viewPricing": "VIEW PRICING",
+        "backHome": "BACK TO HOME"
+      }
+    },
+  "features": {
+    "heading": "POWERFUL, NOT COMPLICATED.",
+    "subtext": "Everything you need to understand your users, without the technical headache or privacy risks.",
+    "cards": {
+      "noBanners": {
+        "title": "No Banners Needed",
+        "text": "Skip the cookie consent popups. Our anonymized tracking is 100% GDPR compliant by default."
+      },
+      "instantLoad": {
+        "title": "Instant Load",
+        "text": "A tiny 10KB script that won't slow down your site. Built in Rust for maximum speed."
+      },
+      "hundredEu": {
+        "title": "100% EU",
+        "text": "Your data stays in Europe. Hosted, owned, and operated on EU soil."
+      },
+      "setup": {
+        "title": "Setup in Minutes",
+        "text": "Copy-paste one line of code and you're live. No complex configuration required."
+      },
+      "badges": {
+        "privacyFirst": "Privacy First",
+        "zeroFriction": "Zero Friction"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "The high-performance, privacy-first analytics platform built for the European digital economy.",
+    "productHeading": "Product",
+    "governanceHeading": "Governance",
+    "product": {
+      "technology": "Technology",
+      "pricing": "Pricing",
+      "documentation": "Documentation",
+      "changelog": "Changelog"
+    },
+    "governance": {
+      "privacyPolicy": "Privacy Policy",
+      "dpa": "DPA (Data Processing)",
+      "sovereignty": "Sovereignty Guarantee",
+      "legal": "Legal Notice"
+    },
+    "copyright": "© 2026 USER-ANALYTICS.EU • MADE WITH 🇪🇺 IN PORTUGAL",
+    "status": "Status: Operational",
+    "uptime": "Uptime: 99.99%"
+  }
+  ,
+  "sustainability": {
+    "stackLabel": "GREEN BY DEFAULT",
+    "titleLine1": "CLEAN CODE.",
+    "titleHighlight": "CLEAN PLANET.",
+    "subtitle": "By choosing Rust for our core API, we've eliminated 90% of the energy waste found in traditional analytics stacks. High performance doesn't have to cost the earth.",
+    "stats": {
+      "energy": { "label": "Energy Efficiency", "sub": "Less power than Node.js" },
+      "resource": { "label": "Resource Usage", "sub": "Memory footprint" },
+      "speed": { "label": "Processing Speed", "sub": "Faster than Python" }
+    },
+    "comparisons": {
+      "heading": "THE RUST ADVANTAGE",
+      "subtitle": "Most analytics platforms run on high-level languages that require massive server clusters. We run on bare metal.",
+      "items": {
+        "python": { "lang": "Python / Ruby", "note": "High overhead, slow execution" },
+        "node": { "lang": "Node.js / Java", "note": "Moderate resource consumption" },
+        "rust": { "lang": "Rust (Our Core)", "note": "Near-zero waste, extreme efficiency" }
+      },
+      "energyLabel": "{{value}}% Energy"
+    },
+    "whyHeading": "WHY IT MATTERS",
+    "reasons": {
+      "costs": { "title": "Lower Operational Costs", "text": "Efficiency isn't just green—it's cheap. We pass these server savings directly to you through our competitive pricing." },
+      "future": { "title": "Future-Proof Tech", "text": "As EU regulations on digital sustainability tighten, our stack is already ahead of the curve." }
+    },
+    "carbon": { "heading": "Carbon Neutral API", "text": "Our Rust core is so efficient it runs on a fraction of the hardware required by GA4." },
+    "cta": { "heading": "Ready for a greener analytics stack?", "getStarted": "GET STARTED", "viewStack": "VIEW THE STACK" }
+  }
+
+,"pricing": {
+  "banner": "TRANSPARENT PRICING",
+  "headingLine1": "PLANS THAT",
+  "headingHighlight": "SCALE",
+  "subtitle": "No hidden fees. No US data transfers. Just simple, powerful analytics.",
+  "sovereigntyBadge": "100% EU-Owned & Operated. No US Data Transfers.",
+  "toggle": { "monthly": "Monthly", "annual": "Annual" },
+  "saveBadge": "Save 20%",
+  "privacyMode": "Privacy Mode",
+  "showComparison": "SHOW COMPARISON",
+  "hideComparison": "HIDE COMPARISON",
+  "comparison": { "ga4": "Standard Analytics (GA4)", "requiresBanner": "Requires Cookie Banner", "us": "User-Analytics.eu", "noBanner": "No Banner Needed" },
+  "privacy": { "quote": "\"Our Rust core anonymizes data at the edge, satisfying EU regulators without annoying your users.\"" },
+  "badges": { "mostPopular": "Most Popular" },
+  "perMonth": "/mo",
+  "eventsPerMonth": "EVENTS / MO",
+  "plans": {
+    "startup": {
+      "name": "Startup",
+      "description": "For early-stage projects.",
+      "features": {
+        "coreDashboard": "Core Dashboard",
+        "oneYearRetention": "1 Year Retention",
+        "emailSupport": "Email Support",
+        "euResidency": "EU Residency"
+      },
+      "cta": "Get Started"
+    },
+    "growth": {
+      "name": "Growth",
+      "description": "For scaling businesses.",
+      "features": {
+        "unlimitedSites": "Unlimited Sites",
+        "fiveYearRetention": "5 Year Retention",
+        "prioritySupport": "Priority Support",
+        "weeklyDigests": "Weekly Digests",
+        "autoArchiving": "Auto-Archiving"
+      },
+      "cta": "Scale Now"
+    },
+    "business": {
+      "name": "Business",
+      "description": "For high-traffic teams.",
+      "features": {
+        "teamAccounts": "Team Accounts",
+        "rawExport": "Raw Data Export",
+        "customDomains": "Custom Domains",
+        "sla": "SLA Guarantee",
+        "customDpa": "Custom DPA"
+      },
+      "cta": "Contact Us"
+    }
+  }
+}
+
+}
