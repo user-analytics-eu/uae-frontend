@@ -60,28 +60,7 @@
             "carbon": { "heading": "API de emisiones cero", "text": "Nuestro core Rust es tan eficiente que funciona con una fracción del hardware requerido por GA4." },
             "cta": { "heading": "¿Listo para un stack de analítica más verde?", "getStarted": "EMPEZAR", "viewStack": "VER STACK" }
           },
-            "pricing": {
-              "banner": "PRECIOS TRANSPARENTES",
-              "headingLine1": "PLANES QUE",
-              "headingHighlight": "ESCALAN",
-              "subtitle": "Sin tarifas ocultas. Sin transferencias de datos a EE. UU. Solo analytics simples y potentes.",
-              "sovereigntyBadge": "100% operado en la UE. Sin transferencias a EE. UU.",
-              "toggle": { "monthly": "Mensual", "annual": "Anual" },
-              "saveBadge": "Ahorra 20%",
-              "privacyMode": "Modo Privacidad",
-              "showComparison": "MOSTRAR COMPARATIVO",
-              "hideComparison": "OCULTAR COMPARATIVO",
-              "comparison": { "ga4": "Analytics estándar (GA4)", "requiresBanner": "Requiere banner de cookies", "us": "User-Analytics.eu", "noBanner": "No se necesita banner" },
-              "privacy": { "quote": "\"Nuestro núcleo en Rust anonimiza datos en el edge, satisfaciendo a los reguladores de la UE sin molestar a tus usuarios.\"" },
-              "badges": { "mostPopular": "Más popular" },
-              "perMonth": "/mo",
-              "eventsPerMonth": "EVENTOS / MES",
-              "plans": {
-                "startup": { "name": "Startup", "description": "Para proyectos en fases iniciales.", "features": { "coreDashboard": "Panel Core", "oneYearRetention": "Retención 1 año", "emailSupport": "Soporte por correo", "euResidency": "Alojamiento UE" }, "cta": "Empezar" },
-                "growth": { "name": "Growth", "description": "Para negocios en expansión.", "features": { "unlimitedSites": "Sitios ilimitados", "fiveYearRetention": "Retención 5 años", "prioritySupport": "Soporte prioritario", "weeklyDigests": "Resúmenes semanales", "autoArchiving": "Archivado automático" }, "cta": "Escalar ahora" },
-                "business": { "name": "Business", "description": "Para equipos con alto tráfico.", "features": { "teamAccounts": "Cuentas de equipo", "rawExport": "Exportación de datos crudos", "customDomains": "Dominios personalizados", "sla": "Garantía SLA", "customDpa": "DPA personalizada" }, "cta": "Contáctanos" }
-              }
-            },
+          
           "tenKb": {
             "title": "10KB Script",
             "description": "Pequeño script de tracking sin dependencias. Se carga al instante y no afecta a tus Core Web Vitals ni al SEO.",
@@ -109,6 +88,28 @@
         "backHome": "VOLVER AL INICIO"
       }
     },
+  "pricing": {
+    "banner": "PRECIOS TRANSPARENTES",
+    "headingLine1": "PLANES QUE",
+    "headingHighlight": "ESCALAN",
+    "subtitle": "Sin tarifas ocultas. Sin transferencias de datos a EE. UU. Solo analytics simples y potentes.",
+    "sovereigntyBadge": "100% operado en la UE. Sin transferencias a EE. UU.",
+    "toggle": { "monthly": "Mensual", "annual": "Anual" },
+    "saveBadge": "Ahorra 20%",
+    "privacyMode": "Modo Privacidad",
+    "showComparison": "MOSTRAR COMPARATIVO",
+    "hideComparison": "OCULTAR COMPARATIVO",
+    "comparison": { "ga4": "Analytics estándar (GA4)", "requiresBanner": "Requiere banner de cookies", "us": "User-Analytics.eu", "noBanner": "No se necesita banner" },
+    "privacy": { "quote": "\"Nuestro núcleo en Rust anonimiza datos en el edge, satisfaciendo a los reguladores de la UE sin molestar a tus usuarios.\"" },
+    "badges": { "mostPopular": "Más popular" },
+    "perMonth": "/mo",
+    "eventsPerMonth": "EVENTOS / MES",
+    "plans": {
+      "startup": { "name": "Startup", "description": "Para proyectos en fases iniciales.", "features": { "coreDashboard": "Panel Core", "oneYearRetention": "Retención 1 año", "emailSupport": "Soporte por correo", "euResidency": "Alojamiento UE" }, "cta": "Empezar" },
+      "growth": { "name": "Growth", "description": "Para negocios en expansión.", "features": { "unlimitedSites": "Sitios ilimitados", "fiveYearRetention": "Retención 5 años", "prioritySupport": "Soporte prioritario", "weeklyDigests": "Resúmenes semanales", "autoArchiving": "Archivado automático" }, "cta": "Escalar ahora" },
+      "business": { "name": "Business", "description": "Para equipos con alto tráfico.", "features": { "teamAccounts": "Cuentas de equipo", "rawExport": "Exportación de datos crudos", "customDomains": "Dominios personalizados", "sla": "Garantía SLA", "customDpa": "DPA personalizada" }, "cta": "Contáctanos" }
+    }
+  },
   "footer": {
     "tagline": "La plataforma de análisis de alto rendimiento y priorizando la privacidad, creada para la economía digital europea.",
     "productHeading": "Producto",

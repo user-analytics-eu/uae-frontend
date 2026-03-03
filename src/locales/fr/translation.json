@@ -60,28 +60,7 @@
             "carbon": { "heading": "API à émissions zéro", "text": "Notre cœur Rust est si efficace qu'il fonctionne sur une fraction du matériel requis par GA4." },
             "cta": { "heading": "Prêt pour une pile analytics plus verte ?", "getStarted": "COMMENCER", "viewStack": "VOIR LA STACK" }
           },
-            "pricing": {
-              "banner": "TARIFICATION TRANSPARENTE",
-              "headingLine1": "DES FORFAITS",
-              "headingHighlight": "SCALABLES",
-              "subtitle": "Aucuns frais cachés. Aucune transmission de données vers les États-Unis. Juste des analytics puissants et simples.",
-              "sovereigntyBadge": "100% exploité dans l'UE. Aucune transmission vers les États-Unis.",
-              "toggle": { "monthly": "Mensuel", "annual": "Annuel" },
-              "saveBadge": "Économisez 20%",
-              "privacyMode": "Mode confidentialité",
-              "showComparison": "AFFICHER LE COMPARATIF",
-              "hideComparison": "MASQUER LE COMPARATIF",
-              "comparison": { "ga4": "Analytics standard (GA4)", "requiresBanner": "Nécessite une bannière cookies", "us": "User-Analytics.eu", "noBanner": "Aucune bannière requise" },
-              "privacy": { "quote": "\"Notre coeur Rust anonymise les données à la périphérie, satisfaisant les régulateurs de l'UE sans gêner vos utilisateurs.\"" },
-              "badges": { "mostPopular": "Le plus populaire" },
-              "perMonth": "/mo",
-              "eventsPerMonth": "ÉVÉNEMENTS / MOIS",
-              "plans": {
-                "startup": { "name": "Startup", "description": "Pour les projets en phase initiale.", "features": { "coreDashboard": "Dashboard Core", "oneYearRetention": "Rétention 1 an", "emailSupport": "Support par e-mail", "euResidency": "Hébergement UE" }, "cta": "Commencer" },
-                "growth": { "name": "Growth", "description": "Pour les entreprises en croissance.", "features": { "unlimitedSites": "Sites illimités", "fiveYearRetention": "Rétention 5 ans", "prioritySupport": "Support prioritaire", "weeklyDigests": "Digest hebdomadaire", "autoArchiving": "Archivage automatique" }, "cta": "Monter en gamme" },
-                "business": { "name": "Business", "description": "Pour les équipes à fort trafic.", "features": { "teamAccounts": "Comptes d'équipe", "rawExport": "Export de données brutes", "customDomains": "Domaines personnalisés", "sla": "Garantie SLA", "customDpa": "DPA personnalisée" }, "cta": "Contactez-nous" }
-              }
-            },
+          
           "tenKb": {
             "title": "10KB Script",
             "description": "Petit script de suivi sans dépendances. Il se charge instantanément et n'impacte pas vos Core Web Vitals ni le SEO.",
@@ -109,6 +88,28 @@
         "backHome": "RETOUR À L'ACCUEIL"
       }
     },
+  "pricing": {
+    "banner": "TARIFICATION TRANSPARENTE",
+    "headingLine1": "DES FORFAITS",
+    "headingHighlight": "SCALABLES",
+    "subtitle": "Aucuns frais cachés. Aucune transmission de données vers les États-Unis. Juste des analytics puissants et simples.",
+    "sovereigntyBadge": "100% exploité dans l'UE. Aucune transmission vers les États-Unis.",
+    "toggle": { "monthly": "Mensuel", "annual": "Annuel" },
+    "saveBadge": "Économisez 20%",
+    "privacyMode": "Mode confidentialité",
+    "showComparison": "AFFICHER LE COMPARATIF",
+    "hideComparison": "MASQUER LE COMPARATIF",
+    "comparison": { "ga4": "Analytics standard (GA4)", "requiresBanner": "Nécessite une bannière cookies", "us": "User-Analytics.eu", "noBanner": "Aucune bannière requise" },
+    "privacy": { "quote": "\"Notre coeur Rust anonymise les données à la périphérie, satisfaisant les régulateurs de l'UE sans gêner vos utilisateurs.\"" },
+    "badges": { "mostPopular": "Le plus populaire" },
+    "perMonth": "/mo",
+    "eventsPerMonth": "ÉVÉNEMENTS / MOIS",
+    "plans": {
+      "startup": { "name": "Startup", "description": "Pour les projets en phase initiale.", "features": { "coreDashboard": "Dashboard Core", "oneYearRetention": "Rétention 1 an", "emailSupport": "Support par e-mail", "euResidency": "Hébergement UE" }, "cta": "Commencer" },
+      "growth": { "name": "Growth", "description": "Pour les entreprises en croissance.", "features": { "unlimitedSites": "Sites illimités", "fiveYearRetention": "Rétention 5 ans", "prioritySupport": "Support prioritaire", "weeklyDigests": "Digest hebdomadaire", "autoArchiving": "Archivage automatique" }, "cta": "Monter en gamme" },
+      "business": { "name": "Business", "description": "Pour les équipes à fort trafic.", "features": { "teamAccounts": "Comptes d'équipe", "rawExport": "Export de données brutes", "customDomains": "Domaines personnalisés", "sla": "Garantie SLA", "customDpa": "DPA personnalisée" }, "cta": "Contactez-nous" }
+    }
+  },
   "footer": {
     "tagline": "La plateforme d'analyse haute performance et respectueuse de la vie privée, conçue pour l'économie numérique européenne.",
     "productHeading": "Produit",

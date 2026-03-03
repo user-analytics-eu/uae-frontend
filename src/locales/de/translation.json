@@ -60,28 +60,7 @@
             "carbon": { "heading": "Zero-Emission API", "text": "Unser Rust-Core ist so effizient, dass er auf einem Bruchteil der Hardware läuft, die GA4 benötigt." },
             "cta": { "heading": "Bereit für einen grüneren Analytics-Stack?", "getStarted": "STARTEN", "viewStack": "STACK ANSEHEN" }
           },
-            "pricing": {
-              "banner": "TRANSPARENTE PREISE",
-              "headingLine1": "PLÄNE, DIE",
-              "headingHighlight": "SKALIEREN",
-              "subtitle": "Keine versteckten Gebühren. Keine US-Datenübertragungen. Einfach leistungsfähige Analytics.",
-              "sovereigntyBadge": "100% in der EU betrieben. Keine US-Datenübertragungen.",
-              "toggle": { "monthly": "Monatlich", "annual": "Jährlich" },
-              "saveBadge": "Spare 20%",
-              "privacyMode": "Privacy Mode",
-              "showComparison": "VERGLEICH ANZEIGEN",
-              "hideComparison": "VERGLEICH AUSBLENDEN",
-              "comparison": { "ga4": "Standard Analytics (GA4)", "requiresBanner": "Erfordert Cookie-Banner", "us": "User-Analytics.eu", "noBanner": "Kein Banner benötigt" },
-              "privacy": { "quote": "\"Unser Rust-Core anonymisiert Daten am Edge und erfüllt dadurch EU-Anforderungen, ohne Nutzer zu belästigen.\"" },
-              "badges": { "mostPopular": "Am beliebtesten" },
-              "perMonth": "/mo",
-              "eventsPerMonth": "EVENTS / MO",
-              "plans": {
-                "startup": { "name": "Startup", "description": "Für frühe Projekte.", "features": { "coreDashboard": "Core-Dashboard", "oneYearRetention": "1 Jahr Aufbewahrung", "emailSupport": "E-Mail-Support", "euResidency": "EU-Hosting" }, "cta": "Jetzt starten" },
-                "growth": { "name": "Growth", "description": "Für wachsende Unternehmen.", "features": { "unlimitedSites": "Unbegrenzte Sites", "fiveYearRetention": "5 Jahre Aufbewahrung", "prioritySupport": "Priorisierter Support", "weeklyDigests": "Wöchentliche Zusammenfassungen", "autoArchiving": "Automatisches Archivieren" }, "cta": "Skalieren" },
-                "business": { "name": "Business", "description": "Für hoch frequentierte Teams.", "features": { "teamAccounts": "Team-Accounts", "rawExport": "Rohdaten-Export", "customDomains": "Eigene Domains", "sla": "SLA-Garantie", "customDpa": "Individuelle DPA" }, "cta": "Kontaktieren Sie uns" }
-              }
-            },
+          
           "tenKb": {
             "title": "10KB Script",
             "description": "Kleines Tracking-Script ohne Dependencies. Lädt sofort und beeinträchtigt nicht deine Core Web Vitals oder SEO.",
@@ -107,6 +86,28 @@
       "heading": "Bereit für souveräne Analysen?",
       "viewPricing": "PREISE ANSEHEN",
       "backHome": "ZURÜCK NACH HAUSE"
+    }
+  },
+  "pricing": {
+    "banner": "TRANSPARENTE PREISE",
+    "headingLine1": "PLÄNE, DIE",
+    "headingHighlight": "SKALIEREN",
+    "subtitle": "Keine versteckten Gebühren. Keine US-Datenübertragungen. Einfach leistungsfähige Analytics.",
+    "sovereigntyBadge": "100% in der EU betrieben. Keine US-Datenübertragungen.",
+    "toggle": { "monthly": "Monatlich", "annual": "Jährlich" },
+    "saveBadge": "Spare 20%",
+    "privacyMode": "Privacy Mode",
+    "showComparison": "VERGLEICH ANZEIGEN",
+    "hideComparison": "VERGLEICH AUSBLENDEN",
+    "comparison": { "ga4": "Standard Analytics (GA4)", "requiresBanner": "Erfordert Cookie-Banner", "us": "User-Analytics.eu", "noBanner": "Kein Banner benötigt" },
+    "privacy": { "quote": "\"Unser Rust-Core anonymisiert Daten am Edge und erfüllt dadurch EU-Anforderungen, ohne Nutzer zu belästigen.\"" },
+    "badges": { "mostPopular": "Am beliebtesten" },
+    "perMonth": "/mo",
+    "eventsPerMonth": "EVENTS / MO",
+    "plans": {
+      "startup": { "name": "Startup", "description": "Für frühe Projekte.", "features": { "coreDashboard": "Core-Dashboard", "oneYearRetention": "1 Jahr Aufbewahrung", "emailSupport": "E-Mail-Support", "euResidency": "EU-Hosting" }, "cta": "Jetzt starten" },
+      "growth": { "name": "Growth", "description": "Für wachsende Unternehmen.", "features": { "unlimitedSites": "Unbegrenzte Sites", "fiveYearRetention": "5 Jahre Aufbewahrung", "prioritySupport": "Priorisierter Support", "weeklyDigests": "Wöchentliche Zusammenfassungen", "autoArchiving": "Automatisches Archivieren" }, "cta": "Skalieren" },
+      "business": { "name": "Business", "description": "Für hoch frequentierte Teams.", "features": { "teamAccounts": "Team-Accounts", "rawExport": "Rohdaten-Export", "customDomains": "Eigene Domains", "sla": "SLA-Garantie", "customDpa": "Individuelle DPA" }, "cta": "Kontaktieren Sie uns" }
     }
   },
   "footer": {

@@ -89,46 +89,6 @@ const Pricing = () => {
           </div>
         </div>
 
-        {/* Privacy Toggle Interactive */}
-        <div className="max-w-xl mx-auto mb-24">
-          <div className="glass-card p-8 flex flex-col items-center gap-6">
-              <div className="flex items-center gap-4 w-full justify-between">
-              <span className="text-sm font-black text-slate-900 uppercase tracking-widest">{t('pricing.privacyMode')}</span>
-              <button 
-                onClick={() => setShowPrivacyComparison(!showPrivacyComparison)}
-                className="flex items-center gap-2 text-xs font-bold text-emerald-600 hover:text-emerald-700 transition-colors"
-              >
-                {showPrivacyComparison ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
-                {showPrivacyComparison ? t('pricing.hideComparison') : t('pricing.showComparison')}
-              </button>
-            </div>
-            
-            <AnimatePresence mode="wait">
-              {showPrivacyComparison ? (
-                <motion.div 
-                  initial={{ opacity: 0, height: 0 }}
-                  animate={{ opacity: 1, height: 'auto' }}
-                  exit={{ opacity: 0, height: 0 }}
-                  className="w-full space-y-4 overflow-hidden"
-                >
-                  <div className="p-5 rounded-2xl bg-slate-50 border border-slate-100 flex items-center justify-between">
-                    <span className="text-sm font-bold text-slate-500">{t('pricing.comparison.ga4')}</span>
-                    <span className="text-xs font-black text-red-500 uppercase tracking-tighter">{t('pricing.comparison.requiresBanner')}</span>
-                  </div>
-                  <div className="p-5 rounded-2xl bg-emerald-50 border border-emerald-100 flex items-center justify-between">
-                    <span className="text-sm text-slate-900 font-black">{t('pricing.comparison.us')}</span>
-                    <span className="text-xs font-black text-emerald-600 uppercase tracking-tighter">{t('pricing.comparison.noBanner')}</span>
-                  </div>
-                </motion.div>
-              ) : (
-                <div className="text-center py-4">
-                  <p className="text-slate-500 text-sm italic font-medium leading-relaxed">{t('pricing.privacy.quote')}</p>
-                </div>
-              )}
-            </AnimatePresence>
-          </div>
-        </div>
-
         {/* Pricing Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {plans.map((plan, i) => (

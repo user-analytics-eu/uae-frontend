@@ -26,29 +26,7 @@
         "text": "Un piccolo script da 10KB che non rallenterà il tuo sito. Costruito in Rust per massime prestazioni."
       },
       "hundredEu": {
-        "title": "100% UE",
-        "text": "I tuoi dati rimangono in Europa. Ospitato, posseduto e gestito su suolo UE."
-      },
-      "setup": {
-        "title": "Configurazione in pochi minuti",
-        "text": "Incolla una riga di codice e sei live. Nessuna configurazione complessa richiesta."
-      },
-      "badges": {
-        "privacyFirst": "Privacy First",
-        "zeroFriction": "Zero Friction"
-      }
-    }
-  },
-    "technology": {
-      "stackLabel": "IL NOSTRO STACK",
-      "titleLine1": "PROGETTATO PER",
-      "titleHighlight": "SOVRANITÀ.",
-      "subtitle": "Non abbiamo solo costruito un altro strumento di analisi. Abbiamo reingegnerizzato l'intero stack per allinearlo ai valori europei di privacy, velocità e indipendenza.",
-      "whyHeading": "PERCHÉ È IMPORTANTE",
-      "learnSustainability": "SCOPRI LA NOSTRA SOSTENIBILITÀ",
-      "coreValue": "Valore principale: {{value}}",
-      "cards": {
-        "rustCore": {
+      
           "title": "Rust Core",
           "description": "Il nostro backend è costruito in Rust per sicurezza della memoria e prestazioni estreme. Questo ci permette di elaborare milioni di eventi con latenza sotto il millisecondo.",
           "value": "Prestazioni"
@@ -139,6 +117,28 @@
       "carbon": { "heading": "API a emissioni zero", "text": "Il nostro core Rust è così efficiente che funziona su una frazione dell'hardware richiesto da GA4." },
       "cta": { "heading": "Pronto per uno stack di analisi più verde?", "getStarted": "INIZIA", "viewStack": "VEDI IL STACK" }
     },
+  "pricing": {
+    "banner": "PREZZI TRASPARENTI",
+    "headingLine1": "Piani CHE",
+    "headingHighlight": "SCALANO",
+    "subtitle": "Nessun costo nascosto. Nessun trasferimento di dati verso gli USA. Solo analytics potenti e semplici.",
+    "sovereigntyBadge": "100% gestito nell'UE. Nessun trasferimento verso gli USA.",
+    "toggle": { "monthly": "Mensile", "annual": "Annuale" },
+    "saveBadge": "Risparmia 20%",
+    "privacyMode": "Modalità Privacy",
+    "showComparison": "MOSTRA CONFRONTO",
+    "hideComparison": "NASCONDI CONFRONTO",
+    "comparison": { "ga4": "Analytics standard (GA4)", "requiresBanner": "Richiede banner cookie", "us": "User-Analytics.eu", "noBanner": "Nessun banner necessario" },
+    "privacy": { "quote": "\"Il nostro core Rust anonimizza i dati all'edge, soddisfacendo i regolatori UE senza infastidire gli utenti.\"" },
+    "badges": { "mostPopular": "Più popolare" },
+    "perMonth": "/mo",
+    "eventsPerMonth": "EVENTI / MESE",
+    "plans": {
+      "startup": { "name": "Startup", "description": "Per progetti in fase iniziale.", "features": { "coreDashboard": "Dashboard Core", "oneYearRetention": "Conservazione 1 anno", "emailSupport": "Supporto email", "euResidency": "Hosting UE" }, "cta": "Inizia" },
+      "growth": { "name": "Growth", "description": "Per aziende in crescita.", "features": { "unlimitedSites": "Siti illimitati", "fiveYearRetention": "Conservazione 5 anni", "prioritySupport": "Supporto prioritario", "weeklyDigests": "Digest settimanale", "autoArchiving": "Archiviazione automatica" }, "cta": "Scala ora" },
+      "business": { "name": "Business", "description": "Per team con molto traffico.", "features": { "teamAccounts": "Account di team", "rawExport": "Esportazione dati raw", "customDomains": "Domini personalizzati", "sla": "Garanzia SLA", "customDpa": "DPA personalizzata" }, "cta": "Contattaci" }
+    }
+  },
   "footer": {
     "tagline": "La piattaforma di analisi ad alte prestazioni e orientata alla privacy, costruita per l'economia digitale europea.",
     "productHeading": "Prodotto",
