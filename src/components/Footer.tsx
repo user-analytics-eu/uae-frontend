@@ -1,6 +1,7 @@
 import React from 'react';
 import { Zap, Activity, Lock, Cpu } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -36,10 +37,10 @@ const Footer = () => {
         <div>
           <h4 className="text-white font-black mb-8 uppercase tracking-widest text-xs">{t('footer.productHeading')}</h4>
           <ul className="space-y-4 text-sm font-bold">
-            <li><a href="/technology" className="hover:text-emerald-400 transition-colors">{t('footer.product.technology')}</a></li>
-            <li><a href="/pricing" className="hover:text-emerald-400 transition-colors">{t('footer.product.pricing')}</a></li>
-            <li><a href="/documentation" className="hover:text-emerald-400 transition-colors">{t('footer.product.documentation')}</a></li>
-            <li><a href="/changelog" className="hover:text-emerald-400 transition-colors">{t('footer.product.changelog')}</a></li>
+            <li><NavLink to="/technology" className="hover:text-emerald-400 transition-colors">{t('footer.product.technology')}</NavLink></li>
+            <li><NavLink to="/pricing" className="hover:text-emerald-400 transition-colors">{t('footer.product.pricing')}</NavLink></li>
+            <li><NavLink to="/documentation" className="hover:text-emerald-400 transition-colors">{t('footer.product.documentation')}</NavLink></li>
+            <li><NavLink to="/changelog" className="hover:text-emerald-400 transition-colors">{t('footer.product.changelog')}</NavLink></li>
           </ul>
         </div>
         {/* <div>
