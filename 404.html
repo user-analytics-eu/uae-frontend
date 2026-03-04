@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Not Found</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  </head>
+  <body>
+    <script>
+      // GitHub Pages SPA fallback: load the app's index.html for unknown routes
+      (function () {
+        var path = location.pathname;
+        // If root, just show the normal index (no-op)
+        if (path === '/' || path === '') return;
+
+        // Try to fetch index.html and replace document with it
+        fetch('/index.html')
+          .then(function (resp) { return resp.text(); })
+          .then(function (html) {
+            document.open();
+            document.write(html);
+            document.close();
+            // restore the URL so the SPA router sees the original path
+            history.replaceState({}, '', path + location.search + location.hash);
+          })
+          .catch(function () {
+            // If fetch fails, redirect to root as a last resort
+            location.replace('/');
+          });
+      })();
+    </script>
+  </body>
+</html>
